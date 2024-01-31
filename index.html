@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+    <title>Tabela de pontuação</title>
+    <meta charset="utf-8">
+    <meta name="author" content="joyce gouvêa">
+    <meta name="description" content="página de treino de código">
+    <meta name="keywords" content="página de treino, tabela de pontuação">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="estilo.css">
+  
+  </head>
+
+  <body>
+    
+    <h1 class="titulo-pagina">Tabela de pontuação</h1>
+    <input type="text" id="nomeNovoJogador" placeholder="insira o nome do jogador">
+    <input type="url" id="imagemNovoJogador" placeholder="insira a imagem do jogador">
+
+    <button id="adicionarJogador" class="botao-padrao" onClick="adicionarJogador()">Adicionar jogador(a)</button>
+
+    <table class="tabela-detalhes">
+      <thead>
+        <tr class="campos-tabela">
+          <th class="campos-tabela">Nome</th>
+          <th class="campos-tabela">Imagem</th>
+          <th class="campos-tabela">Vitórias</th>
+          <th class="campos-tabela">Empates</th>
+          <th class="campos-tabela">Derrotas</th>
+          <th class="campos-tabela">Pontos</th>
+          <th class="campos-tabela" colspan="4">Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaJogadores">
+        
+    </table>
+
+    <button id="limparCampos" class="botao-padrao" onClick="limparCampos()">Limpar pontuações da tabela</button>
+
+    <script src="javascript.js"></script>
+  </body>
+
+</html>

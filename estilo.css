@@ -1,0 +1,85 @@
+* {
+  text-align: center;
+}
+
+body{
+  font-family: "Roboto Mono", monospace;
+  min-height: 550px;
+  background-image: url("imgs/bg.jpg");
+  background-color: #111;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.tabela-detalhes{
+  margin-top: 15px;
+  border: none;
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.titulo-pagina{
+  color: white;
+}
+
+#nomeNovoJogador, #imagemNovoJogador{
+  padding: 10px;
+  width: 200px;
+  border-radius: 4px;
+}
+
+.campos-tabela{
+  border: none;
+  color: white;
+}
+
+.img-usuario{
+  filter: invert(100%);
+  width: 60px;
+  height: 60px;
+}
+
+.botao-padrao{
+  border: 0;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 1px;
+}
+
+.botao-padrao:hover{
+  opacity: 0.8;
+}
+
+.botao-acao{
+  background-color: #800000;
+  color: white;
+  padding: 10px 15px;
+  width: 190px;
+}
+
+#adicionarJogador{
+  margin-top: 25px;
+}
+
+#limparCampos{
+  margin-top: 10px;
+}
+
+#adicionarJogador,
+#limparCampos{
+  color: #ffffff;
+  background: #da1e26;
+  padding: 10px;
+}
